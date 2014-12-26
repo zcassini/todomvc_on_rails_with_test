@@ -3,3 +3,11 @@
 I built the TodoMVC app according to its spec using only Rails 4 and a hint of javascript. See my article for more details
 
 http://www.mattdeleon.net/
+
+== Update
+
+{@kashiro}[https://github.com/kashiro]
+I updated in {feature/update}[https://github.com/kashiro/todomvc_on_rails_fork/tree/feature/update] branch.
+You can check specs using RSpec, Capybara, and Capybara-webkit.
+
+If you want to know detail please check {PR}[https://github.com/smidwap/todomvc_on_rails/pull/2]
