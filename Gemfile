@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-ruby "2.0.0"
+ruby "2.1.5"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0.rc1'
+gem 'rails', "4.2.0.rc3"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc1'
@@ -31,6 +31,17 @@ gem 'jbuilder', '~> 1.0.1'
 group :development do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+end
+
+group :test, :development do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'capybara-webkit'
+  gem 'database_cleaner'
 end
 
 group :doc do
