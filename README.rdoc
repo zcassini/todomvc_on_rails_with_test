@@ -7,7 +7,4 @@ http://www.mattdeleon.net/
 == Update
 
 {@kashiro}[https://github.com/kashiro]
-I updated in {feature/update}[https://github.com/kashiro/todomvc_on_rails_fork/tree/feature/update] branch.
-You can check specs using RSpec, Capybara, and Capybara-webkit.
-
-If you want to know detail please check {PR}[https://github.com/smidwap/todomvc_on_rails/pull/2]
+I updated to learn how to unit test using RSpec and Feature test using Capybara
