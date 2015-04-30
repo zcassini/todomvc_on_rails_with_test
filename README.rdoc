@@ -7,4 +7,4 @@ http://www.mattdeleon.net/
 == Update
 
 {@kashiro}[https://github.com/kashiro]
-I updated to learn how to unit test using RSpec and Feature test using Capybara
+I updated to learn how to create unit test using RSpec and Feature test using Capybara
