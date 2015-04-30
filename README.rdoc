@@ -6,5 +6,7 @@ http://www.mattdeleon.net/
 
 == Update
 
+[![Build Status](https://travis-ci.org/kashiro/todomvc_on_rails_with_test.svg?branch=master)](https://travis-ci.org/kashiro/todomvc_on_rails_with_test)
+
 {@kashiro}[https://github.com/kashiro]
 I updated to learn how to create unit test using RSpec and Feature test using Capybara
