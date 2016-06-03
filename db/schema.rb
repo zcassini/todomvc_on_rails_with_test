@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20130518030840) do
 
-  create_table "todos", force: true do |t|
+  create_table "todos", force: :cascade do |t|
     t.boolean  "completed",  default: false, null: false
     t.string   "title"
     t.datetime "created_at"
