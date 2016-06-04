@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2', '>= 4.2.6'
 
@@ -20,37 +18,37 @@ gem 'pg', '~> 0.18.4'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '~> 2.5', '>= 2.5.3'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
 group :development do
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 end
 
 group :production do
-  gem 'rails_12factor'
+  gem 'rails_12factor', '~> 0.0.3'
 end
 
 group :test, :development do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
 end
 
 group :test do
-  gem 'factory_girl_rails'
-  gem 'capybara'
-  gem 'capybara-webkit'
-  gem 'database_cleaner'
+  gem 'factory_girl_rails', '~> 4.7'
+  gem 'capybara', '~> 2.7', '>= 2.7.1'
+  gem 'capybara-webkit', '~> 1.11', '>= 1.11.1'
+  gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
 end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc', '~> 0.4.1', require: false
 end
 
 # Use ActiveModel has_secure_password
